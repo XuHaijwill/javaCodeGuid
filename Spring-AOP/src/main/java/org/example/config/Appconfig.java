@@ -14,7 +14,7 @@ import javax.sql.DataSource;
 @ComponentScan("org.example")
 @EnableAspectJAutoProxy
 @MapperScan("org.example.mapper")
-@ImportResource("classpath:spring.xml")
+//@ImportResource("classpath:spring.xml")
 public class Appconfig {
 
 
@@ -29,7 +29,6 @@ public class Appconfig {
     @Bean
     public DataSource dataSource(){
         DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
-//        driverManagerDataSource.setDriverClassName("com.mysql.jdbc.Driver");
         driverManagerDataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         driverManagerDataSource.setUsername("root");
         driverManagerDataSource.setPassword("11111");
