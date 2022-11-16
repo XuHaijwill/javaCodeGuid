@@ -28,6 +28,11 @@ public class ExamAspect {
         System.out.println("AfterThrowing");
     }
 
+    @Before("execution(public void org.example.service.UserService.test())")
+    public void testAnnotationAspect(){
+        System.out.println("test before");
+    }
+
 
 
 }
