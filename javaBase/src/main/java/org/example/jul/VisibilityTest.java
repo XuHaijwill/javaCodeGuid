@@ -8,6 +8,8 @@ package org.example.jul;
  * 整到hisdis-amd64.dll之后丢到jre/bin/server目录里就完事了
  *
  * https://dropzone.nfshost.com/hsdis/
+ *
+ * D:\cygwin64\home\zuiwo
  */
 public class VisibilityTest {
 
