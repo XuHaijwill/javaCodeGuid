@@ -8,6 +8,10 @@ import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 
+/**
+ * Java RMI原理及反序列化学习
+ * https://y4er.com/posts/java-rmi/
+ */
 public class RMIServer {
 
     public static String HOST = "127.0.0.1";
