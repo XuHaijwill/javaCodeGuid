@@ -15,7 +15,7 @@ public class RMIClient {
     public static void main(String[] args) {
         try {
             // 获取服务注册器
-            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 8989);
+            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 8099);
             // 获取所有注册的服务
             String[] list = registry.list();
             for (String i : list) {

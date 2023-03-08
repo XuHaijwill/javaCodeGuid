@@ -15,7 +15,7 @@ import java.rmi.registry.LocateRegistry;
 public class RMIServer {
 
     public static String HOST = "127.0.0.1";
-    public static int PORT = 8989;
+    public static int PORT = 8099;
     public static String RMI_PATH = "/hello";
     public static final String RMI_NAME = "rmi://" + HOST + ":" + PORT + RMI_PATH;
 
