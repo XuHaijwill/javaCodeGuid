@@ -2,6 +2,9 @@ package org.example.JDK;
 
 import java.util.ArrayList;
 
+/**
+ * 内存查看jvisual
+ */
 public class HeapTest {
     byte[] a = new byte[1024 * 100];
 
